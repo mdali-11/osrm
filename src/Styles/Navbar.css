@@ -1,0 +1,56 @@
+
+.firtNavCont{
+    background: #993365;
+    color: white;
+}
+.firstNav{
+   width: 74%;
+   margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.secondNavCont{
+    background: white;
+    padding: 25px 0px;
+    z-index: 100px;
+
+}
+.secondNav{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    gap: 50px;
+    text-align: left;
+    align-items: center;
+}
+
+
+
+.thirdNav{
+    position: relative;
+    top: -25px;
+    width: 65%;
+    margin: auto;
+    z-index: 5px;
+}
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+  }
+  
+  .menu-item {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: yellow;
+    color: black;
+  }

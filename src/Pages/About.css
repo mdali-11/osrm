@@ -1,0 +1,41 @@
+.aboutMainCont{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMainCont >.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.aboutMainCont img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.imageCollage > img:nth-child(1) {
+    position: absolute;
+    top: -50px;
+    left: 10;
+  }
+  
+  .imageCollage > img:nth-child(2) {
+    position: absolute;
+    top: -115px;
+    right: 30;
+  }
+  
+  .imageCollage > img:nth-child(3) {
+    position: absolute;
+    top: 100;
+    left: 0;
+  }
+  
+  .imageCollage > img:nth-child(4) {
+    position: absolute;
+    top: 125px;
+    right: 10;
+  }
+  

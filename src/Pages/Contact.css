@@ -1,0 +1,19 @@
+.contactDetails{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.contactDetails>DIV{
+    width: 100%;
+}
+
+input , textarea{
+    padding:15px 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom:0.5px solid gray;
+    /* box-sizing: border-box; */
+
+}

@@ -1,0 +1,45 @@
+
+.leftside p {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .contacticons {
+    padding-left: 20px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #DF6668;
+    color: black;
+  }
+  
+  .rightside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  .print {
+    width: 36px;
+    height: 36px;
+    margin-left: 8px;
+    transition: all 1s;
+  }
+  .print:hover {
+    transform: scale(1.1);
+  }
+  .rightside img {
+    height: 55px;
+  }
+  .print1 {
+    width: 60px;
+    height: 60px;
+    margin-right: -14px;
+    transition: all 1s;
+    /* transform: scale(1.1); */
+  }
+  .print1:hover {
+    transform: scale(1.1);
+  }
+  
