@@ -3,7 +3,7 @@ import img5 from "../Links/films1.jpg"
 import "./Contact.css"
 const Contact = () => {
   return (
-    <div style={{height:"100vh" , background:"black" ,overflow:"hidden", color:"white"}}>
+    <div style={{height:"100vh" , display:"flex",flexDirection:"column", justifyContent:"center", background:"black" ,overflow:"hidden", color:"white"}}>
         <h1 style={{textAlign:"left" , marginLeft:"100PX", marginTop:"50px" , color:"#62BD57"}}>GET IN TOUCH</h1>
         <div className='contactDetails'>
             <div>
